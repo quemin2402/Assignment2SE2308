@@ -6,10 +6,10 @@ public class Main {
 
         ArrayList<Person> peoplelist = new ArrayList<>();
 
-        peoplelist.add(new Employee("John", "Lennon", "Manager", 27045.78));
-        peoplelist.add(new Employee("George", "Harrison", "Developer", 50000.00));
-        peoplelist.add(new Student("Ringo", "Starr", 2.5));
-        peoplelist.add(new Student("Paul", "McCartney", 3.0));
+        peoplelist.add(new Employee("Merey", "Ibraim", "Developer", 300000.00));
+        peoplelist.add(new Student("Emma", "Proulx", 2.2));
+        peoplelist.add(new Employee("Otto", "Benson", "Software tester",  275000.00));
+        peoplelist.add(new Student("Hans", "Zimmer", 3.0));
 
         Collections.sort(peoplelist);
         printData(peoplelist);
